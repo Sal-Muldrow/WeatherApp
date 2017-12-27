@@ -1,0 +1,6 @@
+{
+
+ "extends": "rallycoding",
+ "no-else-return": ["error", { "allowElseIf": true }]
+
+}
