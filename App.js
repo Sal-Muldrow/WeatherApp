@@ -7,7 +7,7 @@ import Footer from './src/components/Footer';
 let value; // Temperature varible
 let Tem = 'sunny'; //Current Emoji
  function getTemp(Zip) { // get weather api
-  return fetch('http://api.openweathermap.org/data/2.5/weather?zip=' + Zip + ',us&APPID=56f429648ce1109b5aa3f87f8e85b47f')
+  return fetch('http://api.openweathermap.org/data/2.5/weather?zip=' + Zip)
     .then((response) => response.json())
     .then((responseJson) => {
       if (responseJson.message == null) {
