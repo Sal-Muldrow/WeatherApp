@@ -32,5 +32,5 @@ const styles = StyleSheet.create({
 
 
 export default Header;
-// skip this line if using Create React Native App
+
 //wow

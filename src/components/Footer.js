@@ -7,6 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <View style={styles.viewStyle}>
+      //set emoji
         <Text style={{ fontSize: 120 }}><Emoji name={this.props.emoji} /></Text>
       </View>
     );
@@ -27,5 +28,5 @@ const styles = StyleSheet.create({
 
 
 export default Footer;
-// skip this line if using Create React Native App
+
 //wow
