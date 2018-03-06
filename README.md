@@ -14,7 +14,7 @@ I built it using React and React Native.
 
 ## What I learned
 More about async promises and ES6 syntax.
-## What's next for AppTano
+## What's next for WeatherApp
 More data, better UI, bug fixes
 ## Here's what it looks like
 
